@@ -62,7 +62,7 @@
                     <p>
                 SONSIN, Juliana. Dislexia e TDAH: descubra as diferenças entre eles e suas características. Disponível em:https://www.telavita.com.br/blog/dislexia-e-tdah/ Acesso em: 12 abr 2022 </p>
             </section>
-        </article>
+        </article>d
         <aside>
             <img src="" alt="">
         </aside>
