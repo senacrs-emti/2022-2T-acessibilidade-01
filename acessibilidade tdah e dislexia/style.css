@@ -5,6 +5,42 @@
     background-color:#f2f2f2;
     float: left;
 }
+.some{
+    display: block;
+}
+#btnAumentar{
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+}
+#btnDiminuir{
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+    padding-left:2px;
+    padding-right:2px;
+    
+}
+#dislexia{
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+    padding-left:6px;
+    padding-right:6px;
+}
+#normal{
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    padding-left:6px;
+    padding-right:6px;
+}
+.normal{
+    font-family: arial;
+}
+.tdis{
+    font-family:OpenDyslexic;
+}
 header {
     height:150px;
     width:100%;
@@ -20,17 +56,43 @@ nav{
     background-color: #ffa500;
     box-shadow: #292929 0px  0px 10px;
 }
+.ace{
+    float: right;
+    height:40px;
+    padding-top: 8px;
+    display: block;
+    position: inherit;
+    margin-left:150px;
+}
+.ace.some:hover{
+    display: block;
+}
+.right{
+    float: right;
+}
 header ul{
     list-style: none;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    background-color: blue;
+    float: left;
 }
 header ul li{
     font-size:20px;
     float: left;
-    padding:9px 10px 8px 10px;
+    padding:9px 2px 8px 10px;
+    padding-bottom: 5px;
+}
+main div{
+    width: 95%;
+    height: 40px;
+    margin-left: 2.5%;
+    display: block;
+    float: left;
+    background-color: #ffa500;
+    margin-top: 10px;
+    box-shadow:-3px -3px 5px 0px ;
+    border: #292929 solid 1px;
 }
 header img{
     height: 90%;
@@ -43,28 +105,13 @@ header img{
     font-size:20px;
     text-align: center;
 }
-header ul li:hover{
-    background-color: #292929;
-    color:white;
-    cursor: pointer;
-}
 main{
     width: 100%;
-    height:auto;
+    padding-bottom: 150%;
     float: left;
     display: block;
     margin-top:36px;
-}
-main div{
-    width: 95%;
-    height: 40px;
-    margin-left: 2.5%;
-    display: block;
-    float: left;
-    background-color: #ffa500;
-    margin-top: 10px;
-    box-shadow:-3px -3px 5px 0px ;
-    border: #292929 solid 1px;
+
 }
 article{
     height: 1500px;
@@ -82,14 +129,12 @@ h1{
     color: #292929;
     text-align: center;
     padding-top: 10px;
-    font-family:Arial, Helvetica, sans-serif;
 }
 h2{
     font-size:18px;
     color:#4d4d4d;
     text-align: center;
     padding-top: 10px;
-    font-family:sans-serif;
     margin-bottom:10px;
 }
 main ul{
@@ -106,13 +151,12 @@ article section{
     margin-left:4%;
 }
 section p{
-    font-family:Arial, Helvetica, sans-serif;
     font-size:18px;
     margin-top: 20px;
     line-height:27.5px;
 }
+
 .lista-array{
-    font-family:Arial, Helvetica, sans-serif;
     font-size:18px;
     margin-top: 20px;
     line-height:27.5px;
@@ -143,16 +187,132 @@ footer{
     height:90%;
 }
 .logos{
-    height:10px;
-    width:150px;
+    height:20%;
+    width:10%;
     float: right;
     display: block;
-    margin-top:-40px;
+    margin-top:-36px;
 }
 .logos img{
     float: left;
     width:30%;
     height: auto;
     margin-left:3%;
-    
+}
+.lado{
+    position: fixed ;
+    width:60px;
+    height:210px;
+    margin-top: 50px;
+    margin-left:-50px;
+}
+.lado li{
+    height:100%;
+}
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Bold.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Bold-Italic.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Bold.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Bold.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Bold-Italic.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Italic.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Italic.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Italic.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Bold-Italic.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Bold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Regular.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Regular.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('./font/OpenDyslexic-Regular.woff2') format('woff2'),
+        url('./font/OpenDyslexic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
